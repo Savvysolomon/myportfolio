@@ -24,6 +24,7 @@
 
 .custom-card {
   position: relative;
+    overflow: hidden;
 }
 
 .custom-card::before {
@@ -36,12 +37,7 @@
 
 .custom-card > * {
   position: relative;
-  z-index: 2;
-}
-
-ul.skills {
-    list-style-type: none;
-    padding-left: 0;
+  /* z-index: 2; */
 }
 
 span img{
@@ -51,4 +47,5 @@ span img{
     width: 100px; 
     height: 100px;
 }
+
 
