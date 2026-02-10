@@ -24,7 +24,7 @@
 
 .custom-card {
   position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .custom-card::before {
@@ -46,6 +46,7 @@ span img{
     border-radius: 10px;
     
 }
+
 
 
 
