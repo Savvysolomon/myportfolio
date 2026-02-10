@@ -29,10 +29,10 @@
 
 .custom-card::before {
   content: "";
-  position: relative;
+  position: absolute;
   inset: 0;
   background: rgba(5, 0, 55, 0.64); /* Adjust opacity here */
-  /* z-index: 1; */
+  z-index: 1;
 }
 
 .custom-card > * {
@@ -46,6 +46,7 @@ span img{
     border-radius: 10px;
     
 }
+
 
 
 
