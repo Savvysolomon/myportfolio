@@ -29,7 +29,7 @@
 
 .custom-card::before {
   content: "";
-  position: absolute;
+  position: relative;
   inset: 0;
   background: rgba(5, 0, 55, 0.64); /* Adjust opacity here */
   /* z-index: 1; */
@@ -46,6 +46,7 @@ span img{
     border-radius: 10px;
     
 }
+
 
 
 
