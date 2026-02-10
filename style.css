@@ -20,3 +20,32 @@
     color: #fff !important;
     background-color: #0d6efd !important;
 }
+
+
+.custom-card {
+  position: relative;
+}
+
+.custom-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 0, 55, 0.64); /* Adjust opacity here */
+  z-index: 1;
+}
+
+.custom-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+ul.skills {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+span img{
+    background-color: #0d6efd;
+    padding: 10px;
+    border-radius: 10px;
+}
